@@ -1,0 +1,64 @@
+nav{
+    width:100%;
+    padding:4px 0;
+    position:fixed;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    color:#fff;
+    
+}
+.nav_about{
+    background:rgb(1, 36, 148);
+
+
+}
+
+.nav_client{
+    background:rgb(1, 36, 148);
+
+}
+.logo{
+    font-size: 60px;
+}
+nav ul a{
+    display: inline-block;
+    list-style: none;
+    margin:5px 20px;
+    font-size: 20px;
+}
+.dark-nav{
+    background:rgb(1, 36, 148);
+    transition: 0.5s;
+}
+.xyz{
+   width:120px;
+}
+.heading {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust this value according to your preference */
+    width: 0;
+    height: 2px; /* Adjust thickness as needed */
+    background-color: blue; /* Adjust color as needed */
+    transition: width 0.3s ease;
+}
+
+.heading:hover::after {
+    width: 100%;
+}
+
+/* Optionally, add hover styles for the heading itself */
+.heading:hover {
+    color: rgb(28, 28, 253); /* Change color when hovered */
+}

@@ -1,0 +1,22 @@
+.clients{
+    margin:50px auto;
+    width:90%;
+    text-align: center;
+}
+.client{
+    margin:130px auto;
+    width:90%;
+    text-align: center;
+}
+.cli{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.cli img{
+    width:24%;
+    border-radius: 10px;
+    height: 300px;
+    
+}

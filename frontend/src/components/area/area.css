@@ -1,0 +1,93 @@
+li{
+    color:black;
+}
+.contact{
+    margin:20vh auto;
+    max-width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+.contact-col{
+    flex-basis:48%;
+    color:#676767
+}
+.contact-col h3{
+    color:#000F38;
+font-weight:500;
+font-size:25px;
+display:flex;
+align-items: center;
+margin-bottom: 20px;
+}
+.contact-col h3 img{
+    width:40px;
+    margin-left:10px;
+height: 42px;
+}
+.contact-col p{
+    max-width: 450px;
+    line-height: 1.3;
+
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.contact-col ul li img{
+    width:30px;
+    height: 30px;
+    margin-right:10px ;
+}
+
+.right{
+    flex-basis:45%;
+}
+.right h3{
+    color:#212EA0;
+}
+.right h2{
+    font-size: 39px;
+   
+    color:#000F38;
+    margin:7px 0;
+    max-width: 400px;
+}
+.right p{
+    color:#676767;
+    margin-bottom: 15px;
+}
+.right h2 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .right h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    animation: lineAnimation 2s infinite;
+  }
+  @keyframes lineAnimation {
+    0% {
+      width: 0;
+      left: 50%;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
+  
+
