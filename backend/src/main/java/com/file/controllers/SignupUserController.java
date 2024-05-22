@@ -21,7 +21,8 @@ import com.file.repositories.UserRepository;
 
 import com.file.services.AuthService;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = { "https://wda-final-frontback-pbs3.vercel.app",
+		"http://localhost:3000" }, allowPrivateNetwork = "true")
 @RestController
 public class SignupUserController {
 	@Autowired
